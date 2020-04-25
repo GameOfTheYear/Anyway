@@ -19,4 +19,6 @@
 (E) replace the working copy with repository copy
 - type: git checkout -- 
 
+(F) checkout the server repository (e.g. GitHub) to the local repository 
+- type: git clone https//github.com/LearnWebCode/welcome-to-git.git
 
