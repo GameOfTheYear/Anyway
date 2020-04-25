@@ -1,0 +1,22 @@
+(Pre) set the user config of the git
+- git config --global user.name "Michael"
+  git config --global user.email "michaelwai@live.hk"
+
+
+(A) how to create a git repository for a folder
+- go to the target folder
+- type: git init
+
+(B) check how modification has been made to working copy comparing to the repository
+- type: git status
+
+(C) move the modified files(s) of the working copy to the stage (ready for next step: commit)
+- type: git add hello.txt
+
+(D) commit
+- type: git commit -m "this is my comment" 
+
+(E) replace the working copy with repository copy
+- type: git checkout -- 
+
+
